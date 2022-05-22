@@ -20,6 +20,28 @@ This brief set of instructions describes how to take a pre-existing folder in a 
 
 
 
+## Clone the current repo
+
+First, we need to get a copy of the folder that will become a repo.  To do this, we will clone down the repo that currently contains the repo.  Follow whatever process you clone directories with currently.  
+
+If you are not familiar with cloning repos, here's what you do:
+
+1. Log into GitHub and navigate to the target repo.
+
+2. Once on the repo page, click the green 
+
+3. Click the copy button to get a copy of the repo's URL.
+
+   ![Clone URL](https://github.com/brooksseahorn/ine-github-migration/blob/main/images/clone-url.png)
+
+4. From the command line of your operating system (where you have already installed git) run the following command:   
+
+   ```bash
+   git clone <<Paste the URL copied above here>>
+   ```
+
+   
+
 ## Create a repo on GitHub
 
 Start off by creating a new repo in GitHub with the name of the target folder.  In this example, this will be the **Brooks** folder.
